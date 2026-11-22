@@ -13,4 +13,4 @@ Thank you for contributing to **DSA Analyzer**. Please follow these conventions 
 Keep commits small and focused on one logical change at a time.   
 
 ## 2. Project Scope Rules
-Implement data structures and algorithms yourself using arrays, classes, and pointers, do not use ready-made STL containers such as std::vector. 
+Implement data structures and algorithms yourself using arrays, classes, and pointers, do not use ready-made STL containers such as std::vector. Enforce guardrails specified in the proposal, such as preventing Binary Search from running on unsorted data and operating on fresh copies of input data during comparisons.   
