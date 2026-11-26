@@ -47,7 +47,6 @@ cmake-build-*/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
 install_manifest.txt
 compile_commands.json
 
@@ -66,3 +65,10 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# DSA Analyzer
+dsa_analyzer
+.DS_Store
+.vscode/
+.idea/
+*.log
