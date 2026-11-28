@@ -1,15 +1,17 @@
 #include "Application.h"
 #include <iostream>
 
+using namespace std;
+
 Application::Application() {
     // Constructor
 }
 
 void Application::run() {
-    std::cout << "========================================" << std::endl;
-    std::cout << "       DSA Analyzer - Welcome!         " << std::endl;
-    std::cout << "========================================" << std::endl;
-    std::cout << "Initializing application..." << std::endl;
-    std::cout << "Ready to explore Data Structures & Algorithms." << std::endl;
-    std::cout << "========================================" << std::endl;
+    cout << "========================================" << endl;
+    cout << "       DSA Analyzer - Welcome!         " << endl;
+    cout << "========================================" << endl;
+    cout << "Initializing application..." << endl;
+    cout << "Ready to explore Data Structures & Algorithms." << endl;
+    cout << "========================================" << endl;
 }

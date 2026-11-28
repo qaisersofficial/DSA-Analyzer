@@ -1,6 +1,8 @@
 #include "core/Application.h"
 #include <iostream>
 
+using namespace std;
+
 int main() {
     Application app;
     app.run();
